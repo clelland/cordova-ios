@@ -666,7 +666,6 @@ static CFIndex WriteDataToStream(NSData* data, CFWriteStreamRef stream)
 
         self.originalDelegate = originalDelegate;
         self.connection = [NSURLConnection connectionWithRequest:req delegate:self];
-        [self.originalDelegate updateBytesExpected:7];
     }
     return self;
 }
