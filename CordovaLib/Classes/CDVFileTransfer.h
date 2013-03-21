@@ -76,6 +76,7 @@ extern NSString* const kOptionsKeyCookie;
 @property (nonatomic, assign) NSInteger bytesExpected;
 @property (nonatomic, assign) BOOL trustAllHosts;
 @property (nonatomic, strong) CDVFileTransferEntityLengthRequest* entityLengthRequest;
+@property (strong) NSFileHandle* targetFileHandle;
 
 @end;
 
